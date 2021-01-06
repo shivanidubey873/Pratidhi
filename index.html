@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratidhi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <div id="logo">
+            <img src="images/Mental-Health-Logo-final.jpg" alt="Pratidhi">
+            <div><b>PRATIDHI</b></div>
+        </div>
+        <ul class="nav">
+
+            <li>
+                <a href="index.html" id="home">
+                    Home
+                </a>
+                <ul>
+                    <li>
+                        <a href="#doctors">
+                            Doctors
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Medicines
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Counselling
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Reminder
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="about.html" id="about">
+                    About Us
+                </a>
+            </li>
+            <li>
+                <a href="contact-us.html" id="contact">
+                    Contact Us
+                </a>
+            </li>
+            <li class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search by doctor's name.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+    <!-- carousel -->
+    <div class="slideshow-container">
+        <div class="mySlides fade popup">
+            <img src="images/carousel-final1.png" style="width:100%">
+            <div class="text">Consult the top doctors without disrupting your daily life.<br>Get an expert opinion in the comfort of your house.<br>
+                <span class="popuptext" id="myPopup">Welcome to my site!</span>
+                <button class="btn">Sign Up</button>
+                <button class="btn">Login</button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel-final2.png" style="width:100%">
+            <div class="text">Your all in one stop.<br>Get doctors, medicines, consultations and more!<br>
+                <button class="btn">Sign Up</button>
+                <button class="btn">Login</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <!-- Doctors -->
+    <div class="card-container">
+        <h2 id="doctors">Doctors</h2>
+        <!-- <p>Sort by: </p> -->
+        <div class="card">
+            <img src="images/doctor1.jpg" alt="Doctor1">
+            <div class="container">
+                <h3>Dr. Jane Doe</h3>
+                <p style="color:rgb(117, 173, 117)">M.D.General | D.O.Psychiatrist</p>
+                <i class="fa fa-inr" style="color:green ; padding:3px"></i>
+                <b>500</b>
+                <i class='fas fa-circle' style='font-size:8px ; padding:3px'></i>
+                <i class='fas fa-star' style='color:rgb(247, 186, 19)  ; padding:3px '></i>
+                <b>4.3</b>
+                <i class='fas fa-circle' style='font-size:8px ; padding:3px'></i>
+                <i class='fas fa-heart' style="color:red ; padding:3px"></i>
+                <b>154</b>
+                <br>
+                <button class="btn2">Book</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/doctor2.jpg" alt="Doctor2">
+            <div class="container">
+                <h3>Dr. Joe Smith</h3>
+                <p style="color:rgb(117, 173, 117)">M.D.General | D.O.Psychiatrist</p>
+                <i class="fa fa-inr" style="color:green ; padding:3px"></i>
+                <b>500</b>
+                <i class='fas fa-circle' style='font-size:8px ; padding:3px'></i>
+                <i class='fas fa-star' style='color:rgb(247, 186, 19)  ; padding:3px '></i>
+                <b>4.2</b>
+                <i class='fas fa-circle' style='font-size:8px ; padding:3px'></i>
+                <i class='fas fa-heart' style="color:red ; padding:3px"></i>
+                <b>159</b>
+                <br>
+                <!-- <button class="btn1">View Profile</button> -->
+                <button class="btn2">Book</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/doctor3.jpg" alt="Doctor3">
+            <div class="container">
+                <h3>Dr. Harry Singh</h3>
+                <p style="color:rgb(117, 173, 117)">M.D.General | D.O.Psychiatrist</p>
+                <i class="fa fa-inr" style="color:green ; padding:3px"></i>
+                <b>500</b>
+                <i class='fas fa-circle' style='font-size:8px ; padding:3px'></i>
+                <i class='fas fa-star' style='color:rgb(247, 186, 19)  ; padding:3px '></i>
+                <b>4.5</b>
+                <i class='fas fa-circle' style='font-size:8px ; padding:3px'></i>
+                <i class='fas fa-heart' style="color:red ; padding:3px"></i>
+                <b>144</b>
+                <br>
+                <!-- <button class="btn1">View Profile</button> -->
+                <button class="btn2">Book</button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer  -->
+    <footer>
+        <ul class="footer-details">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li>
+                <ul class="contact-details">Quick Contact Details
+                    <li>Address: 32/2 Gandhi Road Kolkata-700002</li>
+                    <li>Contact No. : 6245687331</li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2020-2021 Pratidhi, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>

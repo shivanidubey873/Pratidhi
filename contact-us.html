@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratidhi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" defer></script>
+    <link rel="stylesheet" href="css/contact-us.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <div id="logo">
+            <img src="images/Mental-Health-Logo-final.jpg" alt="Pratidhi">
+            <div><b>PRATIDHI</b></div>
+        </div>
+        <ul class="nav">
+
+            <li><a href="index.html" id="home">Home</a>
+                <ul>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Medicines</a></li>
+                    <li><a href="#">Counselling</a></li>
+                    <li><a href="#">Reminder</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html" id="about">About Us</a></li>
+            <li><a href="contact-us.html" id="contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!-- breadcrumb -->
+    <div class="breadcrumb-container">
+        <img src="images/bckg-img-final.png" alt="Pratidhi">
+        <h1>CONTACT US</h1>
+        <ul class="breadcrumb">
+            <li><a href="index.html"><i class="fa fa-home "></i> Home</a></li>
+            <li>Contact Us</li>
+        </ul>
+        <p>Welcome to Pratidhi!</p>
+    </div>
+    <!-- Contact-form -->
+    <section id="contact-form">
+        <h1>CONTACT US</h1>
+        <div id="contact-box">
+            <form name="ContactForm" action="" onsubmit="return validation()">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact Number:</label>
+                    <input type="contact" name="contact" id="contact_number" placeholder="Enter your contact number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Google map  -->
+    <h1>GOOGLE MAP</h1>
+    <div id="googleMap">
+        <div id="map-container-google-2" class="z-depth-1-half map-container">
+            <iframe src="https://maps.google.com/maps?q=kolkata&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!--Google Maps-->
+    <!-- Footer  -->
+    <footer>
+        <ul class="footer-details">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li>
+                <ul class="contact-details">Quick Contact Details
+                    <li>Address: 32/2 Gandhi Road Kolkata-700002</li>
+                    <li>Contact No. : 6245687331</li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2020-2021 Pratidhi, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+</body>
+
+</html>
